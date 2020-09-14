@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Roboto+Slab:200,300,400,600,700&display=swap');
+
+body{
+	background-color:#e4fde1;
+    font-family: 'Raleway', sans-serif;
+    color:#2d3142;
+    text-align:center;
+    padding-bottom:50px;
+}
+
+.container{
+	background-color:white;
+	padding:40px 30px;
+	width:40%;
+	margin:40px auto;
+	border-radius:5px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,15%);
+}
+
+.container:hover{
+	border:4px dashed #6a8caf;
+}
+
+#intro{
+	border: 4px dashed #75b79e;
+}
+
+@media (max-width: 1100px) {
+	.container{
+    width: 50%;
+  	}
+}
+
+@media (max-width: 760px) {
+	.container{
+    width: 75%;
+  	}
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 85%;
+  }
+}
+
+.line{
+	border:2px solid #e4fde1;
+	margin:0px 70px;
+}
+
+h1,h2{
+	font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+h1 {
+	margin-top:-20px;
+	margin-bottom:0px;
+	color:#75b79e;
+    font-size:65px;
+    font-weight:400;
+}
+
+h2{
+	color:#6a8caf;
+	text-transform:uppercase;
+	font-size:25px;
+}
+
+#profilepic{
+	margin:15px 0px 5px 0px;
+	width:150px;
+}
+
+.btn{
+	background-color: #75b79e;
+	color: white;
+	text-decoration: none;
+	font-weight:bold;
+	margin-bottom:15px; 
+	padding: 10px 35px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,20%);
+	transition:.5s;}
+
+.btn:hover {
+	background-color:#6a8caf;
+}
+
+#btn-ddl{
+	font-family:Roboto Slab,serif;
+	text-decoration:none;
+	color:#75b79e;
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight:400;
+}
+
+#btn-ddl:hover {
+	color:#6a8caf;
+}
+
+#icon-ddl{
+	margin:0px 7px;
+}
+
+.icons{
+	width:60px;
+}
+
+.footericons{
+	color:#75b79e;
+	transition:.5s ease;
+	margin:10px 10px 30px 10px;
+	font-size: 40px;
+}
+
+.footericons:hover {
+	color:#6a8caf;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left:0px;
+	margin:-5px 0px 30px 0px;
+	line-height: 40px;
+}
+
+.list-inline li{
+	display:inline;
+	background-color:rgba(106, 141, 175,0.8);
+	width:40px;
+	color:white;
+	border-radius:7px;
+	padding:5px 10px;
+	margin:5px;
+}
